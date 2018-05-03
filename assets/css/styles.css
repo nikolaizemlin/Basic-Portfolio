@@ -9,6 +9,7 @@ div {
     background-color: #ffffff;
 }
 li1 {
+    font-weight: bold;
     color: white;
     margin-left: 25%;
     padding: 14px 16px;
@@ -26,13 +27,14 @@ img {
     float: left;
     margin-right: 15px;
 }
-    li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+li a {
+    font-weight: bold;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
         /* Change the link color to #111 (black) on hover */
         li a:hover {
