@@ -17,7 +17,7 @@ li1 {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-}
+    }
 li {
     float: right;
 }
@@ -45,6 +45,9 @@ body {
     line-height: 32px;
     color: #333;
 }
+body {
+    background-image: url("/assets/images/congruent_outline.png")
+}
 
 aside {
     margin: 40px;
@@ -58,6 +61,7 @@ aside {
 }
 
 footer {
+    bottom: auto;
     text-align: center;
     background: #666666;
     font-size: small;
