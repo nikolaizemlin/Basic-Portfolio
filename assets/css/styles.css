@@ -14,8 +14,16 @@ li1 {
     background-color: #4aaaa5;
     float: Left;
 }
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
 li {
     float: right;
+}
+img {
+    float: left;
+    margin-right: 15px;
 }
     li a {
         display: block;
@@ -29,10 +37,7 @@ li {
         li a:hover {
             background-color: #4aaaa5;
         }
-* {
-    box-sizing: border-box;
-    text-align: center;
-}
+
 
 body {
     background-color: lightgray;
@@ -42,17 +47,19 @@ body {
 }
 
 aside {
-    margin: 20px;
+    margin: 40px;
     width: 960px;
-    height: 200px;
-    padding: 200px;
+    height: 500px;
+    padding: 20px;
     margin-left: 25%;
     background: #fff;
     border: 1px solid #eee;
+    margin-bottom: 100px;
 }
 
 footer {
+    text-align: center;
     background: #666666;
     font-size: small;
-    color: lightgray; 
+    color: lightgray;
 }
