@@ -1,6 +1,20 @@
-/**
- * Float Layout Activity
- **/
+.image {
+    position: relative;
+    width: 25%;
+}
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+}
+    h2 span {
+        color: white;
+        font: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing: 1px;
+        background: #4aaaa5; 
+        padding: 10px;
+    }
 div {
     list-style-type: none;
     margin: 0;
@@ -23,10 +37,6 @@ h1 {
 li {
     float: right;
 }
-img {
-    float: left;
-    margin-right: 15px;
-}
 li a {
     font-weight: bold;
     display: block;
@@ -35,13 +45,9 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
+li a:hover {
             background-color: #4aaaa5;
-        }
-
-
+}
 body {
     background-color: lightgray;
     font-size: 24px;
@@ -51,11 +57,10 @@ body {
 body {
     background-image: url("/assets/images/congruent_outline.png")
 }
-
 aside {
     margin: 40px;
     width: 960px;
-    height: 500px;
+    height: 550px;
     padding: 20px;
     margin-left: 25%;
     background: #fff;
