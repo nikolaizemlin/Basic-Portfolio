@@ -64,7 +64,11 @@ aside {
 }
 
 footer {
-    bottom: auto;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-top: 5px solid#4aaaa5;
     text-align: center;
     background: #666666;
     font-size: small;
