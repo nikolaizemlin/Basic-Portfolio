@@ -1,6 +1,6 @@
-.image {
-    position: relative;
-    width: 25%;
+img {
+    float: left;
+    
 }
 h2 {
     position: absolute;
