@@ -79,3 +79,17 @@ footer {
     font-size: small;
     color: lightgray;
 }
+
+.bacon {
+ position: relative;
+ float: left;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+}
