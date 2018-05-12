@@ -16,9 +16,8 @@ h2 {
         padding: 10px;
     }
 div {
+    position: static;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #ffffff;
 }
@@ -54,15 +53,13 @@ body {
     line-height: 32px;
     color: #333;
 }
-body {
-    background-image: url("/assets/images/congruent_outline.png")
-}
+
 aside {
-    margin: 40px;
+    position: center;
+    margin: 20px;
     width: 960px;
     height: 550px;
-    padding: 20px;
-    margin-left: 25%;
+    padding: 15px;
     background: #fff;
     border: 1px solid #eee;
     margin-bottom: 100px;
@@ -92,4 +89,60 @@ footer {
     margin-bottom: 5px;
     background-color: #4aaaa5;
     color: white;
+    padding-right: 196px;
+}
+@media screen and (min-width: 640px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: lightpink;
+    }
+}
+@media screen and (min-width: 980px) {
+    body {
+        background-color: rebeccapurple;
+    }
+}
+* {
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+@keyframes circle {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(6)
+    }
+}
+
+.circle {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 20px solid CadetBlue;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    z-index: -1;
+}
+
+.one {
+    animation: circle 4s infinite linear;
+}
+
+.two {
+    animation: circle 3s infinite linear;
+}
+
+.three {
+    animation: circle 2s infinite linear;
 }
